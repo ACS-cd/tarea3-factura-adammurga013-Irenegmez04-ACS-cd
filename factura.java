@@ -14,7 +14,7 @@ public class factura {
         System.out.print("Precio unitario: ");
         double precio = sc.nextDouble();
         System.out.print("Cantidad: ");
-        int cantidad = sc.nextInt()
+        int cantidad = sc.nextInt();
         System.out.print("Es cliente socio (s/n): ");
         String socio = sc.next();
 
@@ -26,7 +26,7 @@ public class factura {
         if (socio.equals("s")) {
             descuento = base * 0.05;
         }
-        int total = (base - descuento) * (1 + IVA);
+        double total = (base - descuento) * (1 + IVA);
 
         System.out.println("Producto: " + producto);
         System.out.printf("Base: %.2f euros%n", base);
