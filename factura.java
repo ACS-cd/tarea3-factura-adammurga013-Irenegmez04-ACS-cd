@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Factura {
+public class factura {
 
     static final double IVA = 0.21;
     static final String PROPIETARIO = "adammurga013, Irenegmez04 y ACS-cd ";
