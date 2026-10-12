@@ -35,5 +35,5 @@ Captura del depurador: capturas/reto3.png
     ·Pruebas y depuración: cada método se puede comprobar por separado.
 
 ## Reto 5 · ¿Qué lenguaje elegirías?
-- Caso A (web de la tienda):
-- Caso B (propuesta en ensamblador):
+- Caso A (web de la tienda): Para este caso elegiría el lenguaje interpretado. Por portabilidad, el mismo código funciona en cualquier sistema operativo y dispositivo (Windows, Mac, Android, Iphone) sin compilar una versión para cada uno, solo hace falta un navegador. Por coste de desarrollo, no hay que compilar ni instalar nada, se escribe, se recarga la página y se prueba, así que es rápido de desarrollar y de mantener.
+- Caso B (propuesta en ensamblador): Mantendría Java (lenguaje mixto). Por rendimiento, la mejora sería inapreciable. El programa hace un par de operaciones y la mayor parte del tiempo está esperando a que el usuario escriba. Por portabilidad, el ensamblador depende de la arquitectura del procesador, asi que habría que reescribirlo para cada tipo de máquina, Java en cambio funciona en cualquier equipo con la JVM.

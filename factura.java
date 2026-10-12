@@ -34,6 +34,7 @@ public class factura {
         System.out.printf("Total con IVA: %.2f euros%n", total);
     }
 
+
 static double calcularDescuento(double base, boolean socio) {
     double descuento = 0;
     if (base > 100){
