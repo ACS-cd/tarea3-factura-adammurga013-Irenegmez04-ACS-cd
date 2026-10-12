@@ -26,7 +26,13 @@ Captura del depurador: capturas/reto3.png
 
 ## Reto 4 · Reutilización
 - Métodos creados y para qué sirve cada uno:
+    ·calcularDescuento: recibe la base imponible y si el cliente es socio. Aplica un 10% de descuento si la base supera 100€ y suma un 5% más si es socio. Devuelve el descuento total.
+    ·aplicarIVA: recibe un importe y lo devuelve con el IVA (21%) aplicado, usando la constante IVA.
+    ·pedirDecimal: muestra el mensaje por pantalla y devuelve el número decimal que escribe el usuario, para no repetir print + nextDouble.
 - ¿Qué ventaja tiene frente al código anterior?
+    ·Reutilización: los cálculos se pueden llamar desde cualquier parte del programa sin copiar código.
+    ·Mantenimiento: si cambian las reglas del desucneto o el IVA, solo se modifica un método.
+    ·Pruebas y depuración: cada método se puede comprobar por separado.
 
 ## Reto 5 · ¿Qué lenguaje elegirías?
 - Caso A (web de la tienda):

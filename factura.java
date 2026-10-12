@@ -33,5 +33,22 @@ public class factura {
         System.out.printf("Descuento: %.2f euros%n", descuento);
         System.out.printf("Total con IVA: %.2f euros%n", total);
     }
-}
 
+static double calcularDescuento(double base, boolean socio) {
+    double descuento = 0;
+    if (base > 100){
+        descuento = base * 0.10;
+    }
+    if (socio) {
+        descuento += base * 0.05;
+    }
+    return descuento;
+}
+static double aplicarIVA(double importe) {
+    return importe * (1 + IVA);
+}
+static double pedirDecimal(Scanner sc, String mensaje) {
+    System.out.print(mensaje);
+    return sc.nextDouble();
+}
+}
